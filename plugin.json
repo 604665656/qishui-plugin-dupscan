@@ -1,0 +1,23 @@
+{
+  "id": "dupscan",
+  "name": "歌词查重",
+  "version": "1.0.0",
+  "api_version": 2,
+  "summary": "扫描曲库歌词，找出重复/高度相似片段，避免同一句 hook 反复用。",
+  "author": "604665656",
+  "license": "MIT",
+  "homepage": "https://github.com/604665656/qishui-plugin-dupscan",
+  "entry": "dupscan.plugin:DupscanPlugin",
+  "tab": {
+    "group": "工具",
+    "title": "歌词查重",
+    "order": 80
+  },
+  "needs": [
+    "store"
+  ],
+  "standalone": "dupscan/__main__.py",
+  "update": {
+    "feed": ""
+  }
+}

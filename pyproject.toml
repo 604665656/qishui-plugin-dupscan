@@ -1,0 +1,98 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qishui-plugin-dupscan"
+version = "1.0.0"
+description = "汽水音乐创作者工具 · 歌词查重插件"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "604665656" }]
+dependencies = [
+ ,
+ ,
+",
+q,
+i,
+s,
+h,
+u,
+i,
+-,
+c,
+o,
+r,
+e,
+ ,
+@,
+ ,
+g,
+i,
+t,
++,
+h,
+t,
+t,
+p,
+s,
+:,
+/,
+/,
+g,
+i,
+t,
+h,
+u,
+b,
+.,
+c,
+o,
+m,
+/,
+6,
+0,
+4,
+6,
+6,
+5,
+6,
+5,
+6,
+/,
+q,
+i,
+s,
+h,
+u,
+i,
+-,
+c,
+o,
+r,
+e,
+.,
+g,
+i,
+t,
+@,
+m,
+a,
+i,
+n,
+",
+,]
+
+[project.optional-dependencies]
+ui = ["PySide6>=6.5"]
+all = ["PySide6>=6.5"]
+
+[project.scripts]
+dupscan = "dupscan.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/604665656/qishui-plugin-qishui-plugin-dupscan"
+
+[tool.setuptools]
+packages = ["dupscan"]
